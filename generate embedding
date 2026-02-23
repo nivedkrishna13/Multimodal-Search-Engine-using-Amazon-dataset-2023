@@ -13,10 +13,10 @@ from concurrent.futures import ThreadPoolExecutor
 # ======================
 # CONFIG
 # ======================
-DATA_PATH = "/kaggle/input/datasets/nivedkrishna13/amazon-2023-reduced-parquet/amazon_clean.parquet"
+DATA_PATH = "/kaggle/input/datasets/nivedkrishna13/amazon-clean-parquet-complete/amazon_clean.parquet"
 OUTPUT_DIR = "embeddings"
-BATCH_SIZE = 128          # Increased for P100
-MAX_WORKERS = 16          # Parallel downloads
+BATCH_SIZE = 192        # Increased for P100
+MAX_WORKERS = 32          # Parallel downloads
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 device = "cuda" if torch.cuda.is_available() else "cpu"

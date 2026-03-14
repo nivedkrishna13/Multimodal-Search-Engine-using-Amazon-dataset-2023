@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+numpy==1.23.5
+faiss-cpu==1.7.4
+sentence-transformers
+torch
+openai-whisper
+pydantic
+transformers
+pandas
+fastparquet
+pillow
+pyarrow

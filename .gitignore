@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Node
+node_modules/
+dist/
+
+# Data & Models (VERY IMPORTANT)
+data/
+index_store/
+embeddings/
+embeddings reduced/
+processed/
+Amazon Products Dataset 2023 (1.4M Products)/
+MULTIMODAL SEARCH SMALL(for deployment)/
+
+*.parquet
+*.index
+*.pt
+*.bin
+*.model
+*.csv
+*.npy
+*.pyc
+*.pdf
+*.ipynb
+*.mp3
+
+# OS
+.DS_Store
+Thumbs.db
